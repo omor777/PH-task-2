@@ -206,3 +206,27 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+/* instagram section */
+#instagram {
+  
+}
+#instagram .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 57px;
+}
+
+#instagram .row .top-col .desc {
+  max-width: 594px;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+#instagram .row .bottom-col {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+}
+ 
