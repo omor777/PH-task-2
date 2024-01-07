@@ -267,7 +267,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   border: 0;
- width: 700px;
+  width: 700px;
 }
 
 #newsletter .row .bottom-col input[type="submit"] {
@@ -278,3 +278,44 @@ body {
   font-size: 20px;
   font-weight: 700;
 }
+/* footer section */
+
+#footer {
+  background: #111010;
+  padding: 128px 0;
+}
+#footer .content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#footer .content .title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+#footer .content .title span {
+  color: #e55473;
+}
+
+#footer .content .desc {
+  max-width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+#footer .content .copyright {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
