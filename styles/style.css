@@ -208,25 +208,73 @@ body {
 }
 /* instagram section */
 #instagram {
-  
 }
 #instagram .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 57px;
 }
 
 #instagram .row .top-col .desc {
   max-width: 594px;
   text-align: center;
   margin-top: 20px;
-  
 }
 
 #instagram .row .bottom-col {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
- 
+
+/* newsletter section */
+#newsletter {
+  margin: 128px 0;
+}
+
+#newsletter .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/Rectangle9.png");
+  background-repeat: no-repeat;
+  padding: 122px 0;
+}
+
+#newsletter .row .desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 18px;
+}
+
+#newsletter .row .bottom-col form {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#newsletter .row .bottom-col input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+  outline: 0;
+  padding: 23px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+ width: 700px;
+}
+
+#newsletter .row .bottom-col input[type="submit"] {
+  padding: 20px 31px;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
